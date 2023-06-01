@@ -1,0 +1,127 @@
+header {
+    padding: 10px 16px;
+    background: #f1f1f1;
+    color: #000000;
+}
+
+article {
+
+}
+aside {
+    overflow:inherit;
+    position: absolute;
+    width: 10%;
+    left: auto;
+    height: 50%;
+    position: fixed;
+}
+body {
+    background-color: #555;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#f1f1f1;
+    color:#000000;
+    text-align: center;
+    position: fixed;
+    
+}
+li {
+    padding: 5px 5px;
+}
+.url {
+    color:white;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100px;
+}
+h1  {
+color:rgb(0, 0, 0);
+text-align: center;
+}
+
+.contendor{
+    border: dotted;
+    width: 200px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+ 
+.elements{
+    width: 80%;
+    min-width: 140px;
+    border-style: dashed;
+    background-color: rgb(255, 196, 247);
+    color: #555;
+    text-align: center;
+    text-shadow: 0 0 3px #2600ff;
+}
+.foot{
+    color:white;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: black;
+}
+.titulo{
+    background-color: black;
+    color:#f1f1f1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .izquierda{
+        padding: 5px;
+        float: left;
+        width: 100%;
+        text-align: justify;
+        word-wrap: word-break;
+        background-color: #000000;
+        min-width: 200px;
+    }
+
+    table{
+        width: 100%;
+    }
+    
+    .derecha{
+        float: right;
+        width: 100%;
+        word-wrap: word-break;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 600px){
+    .izquierda{
+        float: left;
+        width: 200px;
+        height:max-content;
+        text-align: justify;
+        word-wrap: word-break;
+        background-color: #000000;
+        min-width: 200px;
+    }
+    table{
+        width: 300px;
+    }
+    .img{
+        background-color: #f1f1f1;
+    }
+    .content{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .derecha{
+        float: right;
+        width: 400px;
+        word-wrap: word-break;
+    }
+}
